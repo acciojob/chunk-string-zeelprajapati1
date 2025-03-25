@@ -1,10 +1,4 @@
 function stringChop(str, size) {
-  // your code here
-}
-
-// Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");function stringChop(str, size) {
   // Handle null or undefined input
   if (!str) return [];
   
@@ -25,5 +19,4 @@ const size = prompt("Enter Chunk Size.");function stringChop(str, size) {
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
 alert(stringChop(str, size));
